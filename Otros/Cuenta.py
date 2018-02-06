@@ -1,5 +1,5 @@
 class Cuenta():
-    def __init__(self, cantidad = 0)
+    def __init__(self, cantidad = 0):
         self.saldo = cantidad
     
     def ingresar(self, cantidad):
@@ -9,5 +9,5 @@ class Cuenta():
         if self.saldo - cantidad > 0:
             self.saldo -= cantidad
         else:
-            print('Operación cancelada: No dispone de tanto saldo')
+            print('Operación cancelada: No dispone de ', cantidad, ' en su cuenta')
             
