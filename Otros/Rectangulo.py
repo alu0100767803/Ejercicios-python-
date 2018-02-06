@@ -13,6 +13,6 @@ class Rectangulo():
 
 alto =  int(input("Alto del rectángulo: "))
 ancho = int(input("Ancho del rectángulo: "))
-caracter =  int(input("Caracter del rectángulo: "))
-rectangulo = Rectangulo(ancho, alto, caracter)
+caracter =  input("Caracter del rectángulo: ")
+rectangulo = Rectangulo(alto, ancho, caracter)
 rectangulo.imprimir()
